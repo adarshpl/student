@@ -1,0 +1,31 @@
+.grid {
+  width: 115%;
+  /* margin-left: 100px; */
+  /* display: grid;
+  grid-template-rows: 1fr; */
+  grid-gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  /* margin: 5px auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center; */
+  /* grid-template-tcolumns: 186px 186px 186px 186px 186px;
+  grid-auto-flow: column; */
+  /* max-height: 500px; */
+  /* position: relative; */
+  /* background-color: black; */
+}
+
+.grid > * {
+  background-color: green;
+  height: 170px;
+  border-radius: 8px;
+  box-shadow: 4px 5px 5px 1px rgba(0, 0, 0, 0.75);
+}
+.div {
+  border-top: 6rem;
+  padding-top: 3rem;
+  width: 230px;
+}
